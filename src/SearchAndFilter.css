@@ -37,9 +37,45 @@
     font-size: 70px;
 }
 
-.Carts_cart_like span svg:hover {
-    background: #0066FF;
+
+.ofert__content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 95px;
+    height: 32px;
+    border-radius: 15px;
+    background-color: #D6E7FF;
+    color: #0066FF;
 }
+
+.No-promo{
+    display: none;
+}
+
+.Content-discount {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: #F35959;
+    margin-left: -28px;
+}
+
+.Content-title {
+    margin: -4px 0px 0px -24px;
+    padding: 4px 16px 4px 28px;
+}
+
+svg.dis {
+    width: 20px;
+    height: 20px;
+    color: #fff;
+}
+
 
 .Carts_cart .Carts_cart_offert-like {
     display: flex;

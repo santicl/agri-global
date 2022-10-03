@@ -8,6 +8,7 @@ import Market from './Market';
 import CategoryFilter from './CategoryFilter';
 import FilterQuant from './FilterQuant';
 import FilterEstimated from './FilterEstimated';
+import Ofert from './Ofert';
 
 
 function SearchAndFilters() {
@@ -81,19 +82,22 @@ function SearchAndFilters() {
                     </div>
                     <div className='Carts'>
                         {
-                            filteredCarts().map(({ _id,
+                            filteredCarts().map(({ 
+                                _id,
                                 imgP,
                                 category,
                                 title,
                                 description,
-                                productPrice
+                                productPrice,
+                                promo,
+                                specialPrice
                             }) => {
                                 return (
                                     <div key={_id} className='Carts_cart'>
                                         <div className='Carts-cart_item'>
                                             <div className='Carts_cart_offert-like'>
                                                 <div className='Carts_cart_offert'>
-                                                    <span>OFFERT</span>
+                                                    <Ofert promo={promo} specialPrice={specialPrice} productPrice={productPrice} />
                                                 </div>
                                                 <div className='Carts_cart_like'>
                                                     <span>{settings.heart}</span>
