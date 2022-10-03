@@ -82,7 +82,7 @@ function SearchAndFilters() {
                     </div>
                     <div className='Carts'>
                         {
-                            filteredCarts().map(({ 
+                            filteredCarts().map(({
                                 _id,
                                 imgP,
                                 category,
@@ -97,7 +97,11 @@ function SearchAndFilters() {
                                         <div className='Carts-cart_item'>
                                             <div className='Carts_cart_offert-like'>
                                                 <div className='Carts_cart_offert'>
-                                                    <Ofert promo={promo} specialPrice={specialPrice} productPrice={productPrice} />
+                                                    <Ofert
+                                                        promo={promo}
+                                                        specialPrice={specialPrice}
+                                                        productPrice={productPrice}
+                                                    />
                                                 </div>
                                                 <div className='Carts_cart_like'>
                                                     <span>{settings.heart}</span>
