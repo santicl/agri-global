@@ -104,6 +104,24 @@ li .Circle-icon svg {
     height: 20px;
 }
 
+.Cant-cart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #33CC00;
+    top: 5px;
+    margin-left: 20px;
+}
+
+.Cant-cart span {
+    font-size: 12px;
+    color: #fff;
+}
+
 .Search {
     margin-left: -30px;
 }

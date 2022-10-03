@@ -24,10 +24,10 @@ export const settings = {
     arrowLeft: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAFoSURBVHgB7ZbPTcMwFId/DhmAEboBjNBNCAdcOCEmiDsB4UTFhbIBnYBVGKEMgF793KpJEzv+k0jtIZ9kOYodvy924mdgYuLMCIzFI81AKB2tWx3pDSvx227I4WJBP3rAOa5Q4F18wQfh0/R3c63LfftmBveAc1P/Y40nuoNfYIMEsp62l+NViMSHqHQRpgAKgwV4QGAZJcFIKscR2EuoKIl28Ky75nECMRK24CuxxmCBEInE4EyOUFhCEl+VDQmuZ57gLH6j94Glbdj4jUiSOkq0iXjzdAGXRELw/WNp0BjBmZQlSP7gbMTNQF9wSa+60KFPzYKeTV7hZDVIwP/mxaFWJxKEyuQVR6YMEwib9uZvpjoz4cC/D4SuOecOSZxyy4YEfGSjBK8luO/pTCQLpH7tXYle7EvwQEV08Mg0XA9tQzSOVqFvLnDr6fFnu5k7tJT+bUjXG30e/EYIwpygtj3tFSYmLpEdlbOb8EGWO6kAAAAASUVORK5CYII=',
     imgCategories: [
         { title: 'Supply to feed mills', subtitle: 'Categories', img: 'https://testing-e-commerce.vercel.app/static/media/Supply-to-Farms.b295666dbcb52340085d.webp' },
-        { title: 'Supply to Farms', subtitle: 'Categories', img: 'https://testing-e-commerce.vercel.app/static/media/Supply-to-slaughterhouse.6fdcea6cc74dff1c1afa.webp' },
-        { title: 'Supply to Slaughterhouses', subtitle: 'Categories', img: 'https://testing-e-commerce.vercel.app/static/media/Meat-Offert.41c7135ff54fa2195072.webp' },
-        { title: 'Meat Offer', subtitle: 'Categories', img: 'https://testing-e-commerce.vercel.app/static/media/Supply-to-Renderers.2d10b5961db258714930.webp' },
-        { title: 'Supply to Renderers', subtitle: 'Categories', img: 'https://testing-e-commerce.vercel.app/static/media/Machinery-and-Equipment.15a0b9c7581dc852479b.webp' }
+        { title: 'Supply to Farms', subtitle: 'Categories', img: 'https://testing-e-commerce.vercel.app/static/media/Supply-to-slaughterhouse.6fdcea6cc74dff1c1afa.webp', msj: "Not Available" },
+        { title: 'Supply to Slaughterhouses', subtitle: 'Categories', img: 'https://testing-e-commerce.vercel.app/static/media/Meat-Offert.41c7135ff54fa2195072.webp', msj: "Not Available" },
+        { title: 'Meat Offer', subtitle: 'Categories', img: 'https://testing-e-commerce.vercel.app/static/media/Supply-to-Renderers.2d10b5961db258714930.webp', msj: "Not Available" },
+        { title: 'Supply to Renderers', subtitle: 'Categories', img: 'https://testing-e-commerce.vercel.app/static/media/Machinery-and-Equipment.15a0b9c7581dc852479b.webp', msj: "Not Available" }
     ],
     pointMarket: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAICAYAAAArzdW1AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAB+SURBVHgBhZC7DYAwDETPoaRnAHpq2AeQ6BiAKaChgX3o6ekZIB0/OwkSRYCTrJxzT1Zigqg6Ixyo2cVcIdfE/YiBVonJAa0Ln9II0KCnRTFQegCYux25GMWV4l3JDWn8SKDlI53tocyjfdM0NnRiyLT2hwW7zISKpwvgVnABUjEe/q6moA8AAAAASUVORK5CYII=',
     apiURL: 'https://testing-agriglobal-market.ue.r.appspot.com/api/getproducts/admisiones',

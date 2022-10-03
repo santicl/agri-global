@@ -24,14 +24,22 @@ function Nav() {
                     </div>
                 </li>
                 <li>
+                    <div className='C-cart'>
                     <button className="Circle-icon">
                         {settings.iconHeart}
                     </button>
+                    <div className='Cant-cart'>
+                        <span>0</span>
+                    </div>
+                    </div>
                 </li>
                 <li>
+                    <div className='C-cart'>
                     <button className="Circle-icon">
                         {settings.iconCart}
                     </button>
+                    <div className='Cant-cart'><span>0</span></div>
+                    </div>
                 </li>
                 <li><a href="https://agriglobalnews.com/" target="_blank">News</a></li>
                 <li>

@@ -15,6 +15,9 @@ function Category() {
                             <div className="Category-cart" key={index}>
                                 <div className='Category-cart_img'>
                                     <img className='Img-title-cart' src={category.img} alt={category.title} />
+                                    <div className='Available'>
+                                        <h2>{category.msj}</h2>
+                                    </div>
                                 </div>
                                 <div className='Category-cart_sub'>
                                     <h2>{category.subtitle}</h2>
