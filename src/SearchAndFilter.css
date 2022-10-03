@@ -1,0 +1,258 @@
+.Buttons-paginations {
+    display: flex;
+}
+
+.Carts {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Carts_cart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 280px;
+    height: 380px;
+    margin: 0px 12px 24px;
+    border: none;
+    border-radius: 15px;
+    padding: 15px;
+    box-shadow: none;
+    background: #fff;
+}
+
+.Carts-cart_item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Carts_cart .Carts_cart_offert-like {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+}
+
+.Carts_cart_category h3 {
+    font-size: 14px;
+    font-weight: 600;
+    color: #0055FF;
+}
+
+.Carts_cart_title h2 {
+    font-size: 18px;
+    color: #07074D;
+    text-transform: uppercase;
+}
+
+
+.Carts_cart_img img {
+    width: 140px;
+    height: 95px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.Carts_cart_offert, .Carts_cart_like, .Carts_cart_img, .Carts_cart_category, .Carts_cart_title, .Carts_cart_description {
+    padding: 5px;
+}
+
+.Carts_cart_category, .Carts_cart_title, .Carts_cart_description {
+    width: 100%;
+    text-align: start;
+}
+
+.Carts_cart_description {
+    width: 240px;
+    height: 50px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.Filters {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    padding-left: 30px;
+}
+
+.Filter_search, .Filter_price {
+    margin: 30px 0;
+}
+
+.Filter_search h2, .Filter_price h2  {
+    margin-bottom: 25px;
+}
+
+.Filter_market {
+    margin: 65px 0;
+}
+
+.Inputs {
+    width: 256px;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    margin: 8px 0;
+    padding-left: 8px;
+}
+
+.Filter_price {
+    display: flex;
+    flex-direction: column;
+}
+
+.Results-search {
+    width: 85%;
+    margin-top: 25px;
+}
+
+.Results-search .H2 {
+    font-size: 24px;
+    font-weight: bold;
+    font-weight: 800;
+    color: #07074D;
+}
+
+.Filter_search h2 {
+    font-size: 24px;
+    font-weight: bold;
+    font-weight: 800;
+    color: #07074D;
+}
+
+.Results-search p {
+    font-size: 14px;
+    margin: 20px 0;
+    color: #10121CB3;
+}
+
+.Buttons-paginations {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.Arrow-r{
+    transform: rotate(-180deg);
+}
+
+.Arrow-l {
+    transform: rotate(0deg);
+}
+
+.Clear {
+    width: 140px;
+    height: 40px;
+    border: 2px solid #0066FF;
+    border-radius: 20px;
+    color: #0066FF;
+    background: #D6E7FF;
+    font-size: 14px;
+    margin-left: 20px;
+}
+
+.Btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 64px;
+    height: 48px;
+    border-radius: 45%;
+    margin: 20px 0;
+    padding: 12px 20px;
+    border: none;
+    background-color: #D6E7FF;
+    color: #0066FF;
+}
+
+.Buttons-paginations_pagination {
+    margin: 0 30px 0px 30px;
+}
+
+.Buttons-paginations_pagination span {
+    font-size: 18px;
+    font-weight: 700;
+    color: #07074D;
+}
+
+.details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 256px;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    background: #fff;
+    margin: 35px 0;
+}
+
+summary {
+    font-size: 14px;
+    margin: 18px 0px 0px;
+    padding: 5px;
+}
+
+ul div span {
+    color: #0066ff;
+}
+
+
+.Filter_market {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.Icon-compare {
+    background: #ccc;
+}
+
+.Carts_cart_btns {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 100%;
+    padding-left: 30px;
+}
+
+.Carts_cart_btns img {
+    width: 25px;
+    height: 25px;
+}
+
+.Btn-cart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 112px;
+    height: 36px;
+    border: none;
+    border-radius: 20px;
+    background: #0066FF;
+    margin: 0 10px;
+    padding: 5px;
+    color: #fff;
+    font-size: 10px;
+    font-weight: 700;
+}
+
+.Btn-cart span {
+    margin-left: 8px;
+}
+
+.Compare {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 36px;
+    height: 36px;
+    border: 2px solid #0066FF;
+    border-radius: 50%;
+    background: #fff;
+    margin: 0 10px;
+}

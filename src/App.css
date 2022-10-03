@@ -1,38 +1,134 @@
-.App {
-  text-align: center;
+* {
+    padding: 0;
+    margin: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+    background-color: #E5E5E5;
+    font-family: 'Roboto', sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 95%;
+    background-color: rgb(177, 214, 238, 0.9);
+    margin: 0 35px 0 35px;
+    border-radius: 50px;
+    height: 62px;
+    top: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+ul li {
+    list-style: none;
+    margin: 0 5px 0 5px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+li {
+    font-size: 16px;
+    font-weight: 700;
+    color: #07074D;
+}
+
+.Container-Search {
+    display: flex;
+}
+
+.Nav-select {
+    width: 120px;
+    height: 40px;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    background: rgb(177, 214, 238, 0.9);
+    margin: 0 20px 0 20px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #07074D;
+    padding: 0 10px 0 10px;
+}
+
+select.select {
+    width: 134px;
+    height: 40px;
+    position: relative;
+    background-color: rgb(177, 214, 238, 0.9);
+    border: 2px solid #0066FF;
+    border-radius: 30px;
+    font-size: 12px;
+    font-weight: 600;
+    color: #0066FF;
+}
+
+input[type="search"] {
+    width: 300px;
+    height: 40px;
+    text-align: start;
+    margin-left: -70px;
+    background-color: #fff;
+    padding-left: 70px;
+    border: 2px solid #D6E7FFE6;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #D6E7FFE6;
+}
+
+li a {
+    text-decoration: none;
+    color: #07074D;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+li .Circle-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #0066ff;
+    border: none;
+    outline: none;
+    color: #fff;
+}
+
+li .Circle-icon svg {
+    width: 20px;
+    height: 20px;
+}
+
+.Search {
+    margin-left: -30px;
+}
+
+ul li a .brand {
+    width: 224px;
+    height: 75px;
+}
+
+.Dropdown {
+    display: none;
+}
+
+.Img-header {
+    width: 100%;
+}
+
+.Category h1 {
+    font-size: 48px;
+    font-weight: 800;
+    color: #07074D;
+    margin: 20px 0 0 112px;
+}
+
+.Main_Container-f { 
+    display: flex;
+    justify-content: center;
 }
