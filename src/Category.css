@@ -55,6 +55,10 @@
     position: relative;
 }
 
+.Not-available {
+    display: none;
+}
+
 .Available {
     display: flex;
     justify-content: center;

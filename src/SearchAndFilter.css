@@ -32,6 +32,15 @@
     align-items: center;
 }
 
+.Carts_cart_like span svg{
+    color: #0066FF;
+    font-size: 70px;
+}
+
+.Carts_cart_like span svg:hover {
+    background: #0066FF;
+}
+
 .Carts_cart .Carts_cart_offert-like {
     display: flex;
     justify-content: space-between;
