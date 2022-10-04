@@ -2,17 +2,17 @@ import '../SearchAndFilter.css';
 import { useState } from 'react';
 import { settings } from "../settings";
 import { useCarts } from '../hooks/useCarts';
-import { Loading } from '../components/Loading';
 import FilterPrices from './FilterPrices';
 import Market from './Market';
 import CategoryFilter from './CategoryFilter';
 import FilterQuant from './FilterQuant';
 import FilterEstimated from './FilterEstimated';
 import Ofert from './Ofert';
+import PriceVerify from './PriceVerify';
 
 
 function SearchAndFilters() {
-    const { isLoading, carts } = useCarts();
+    const { carts } = useCarts();
     const [search, setSearch] = useState("");
     const [currPage, setCurrPage] = useState(0);
 
@@ -120,7 +120,11 @@ function SearchAndFilters() {
                                                 <p>{description}</p>
                                             </div>
                                             <div className='Carts_cart_price'>
-                                                <span>{productPrice} USD</span>
+                                                <PriceVerify
+                                                    promo={promo}
+                                                    specialPrice={specialPrice}
+                                                    productPrice={productPrice}
+                                                />
                                             </div>
                                             <div className='Carts_cart_btns'>
                                                 <button className='Btn-cart'> {settings.iconCart} <span>Add Cart</span></button>
@@ -135,9 +139,6 @@ function SearchAndFilters() {
                         }
                     </div>
                 </div>
-                {
-                    isLoading && <Loading />
-                }
             </div>
         </div>
     );

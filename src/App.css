@@ -122,6 +122,25 @@ li .Circle-icon svg {
     color: #fff;
 }
 
+.Carts_cart_price-new {
+    font-size: 18px;
+    font-weight: 700;
+    color: #EF4444;
+}
+
+.Carts_cart_price-old {
+    font-size: 12px;
+    font-weight: 700;
+    color: #33CC00;
+    text-decoration: line-through;
+}
+
+.Carts_cart_price .Only-price {
+    font-size: 18px;
+    font-weight: 700;
+    color: #000000;
+}
+
 .Search {
     margin-left: -30px;
 }
@@ -149,4 +168,108 @@ ul li a .brand {
 .Main_Container-f { 
     display: flex;
     justify-content: center;
+}
+
+.Footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-color: #07074D;
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.Footer-container_register {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    width: 40%;
+}
+
+.Footer-container_info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    width: 60%;
+    height: 100%;
+}
+
+.Footer-container_info_content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.Footer-continer_info_footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.Img-brand {
+    width: 112px;
+    height: 112px;
+    margin: 24px 0 0 0;
+}
+
+.Img-letter-brand {
+    width: 160px;
+    height: 36px;
+    margin: 24px 0 0 0;
+}
+
+.Footer-container_register h3 {
+    font-size: 15px;
+    font-weight: 700;
+    color: #D6E7FFE6;
+    margin: 24px 0 0 0;
+}
+
+.Footer-container_register P{
+    font-size: 12px;
+    font-weight: 400;
+    color: #D6E7FFE6;
+    margin: 24px 0 0 0;
+}
+
+.Footer-container-btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin: 24px 0 0 0;
+}
+
+.Footer-container-btns button {
+    width: 110px;
+    height: 40px;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    background-color: #D6E7FFE6;
+    font-size: 18px;
+    font-weight: 700;
+    color: #0066FF;
+    margin: 0 10px 0 10px;
+}
+
+.Footer-container_info_contact h3, .Footer-container_info_services H3 {
+    font-size: 14px;
+    font-weight: 700;
+    color: #33CC00;
 }

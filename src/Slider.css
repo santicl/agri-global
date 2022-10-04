@@ -1,0 +1,58 @@
+.swiper {
+    width: 100%;
+    min-height: 400px;
+  }
+  
+  .swiper-slide {
+    text-align: left;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .swiper-slide div div img {
+    height: 100px;
+    object-fit: cover;
+  }
+
+  .mySwiper div div .titleCat{
+    color: #0066FF;
+    font-size: 14px;
+    font-weight: 600;
+  }
+  .mySwiper div div .nameProduct{
+    color: #07074D;
+    font-size: 24px;
+    font-weight: 700;
+  }
+  
+  .swiper-slide div div div img {
+    object-fit: cover;
+    height: 282px;
+    width: 300px;
+
+  }
+  .swiper-slide div div div div img {
+    object-fit: cover;
+    height: 36px;
+    width: 36px;
+  }
+  .swiper-slide div div div {
+    overflow: visible;
+    z-index: 50;
+    display:absolute;
+  }

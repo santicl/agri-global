@@ -11,7 +11,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 280px;
+    width: 250px;
     height: 380px;
     margin: 0px 12px 24px;
     border: none;
@@ -62,12 +62,19 @@
     height: 32px;
     border-radius: 50%;
     background-color: #F35959;
-    margin-left: -28px;
+    margin: 0px 8px 0px -25px;
 }
 
 .Content-title {
-    margin: -4px 0px 0px -24px;
-    padding: 4px 16px 4px 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Content-title p.P {
+    font-size: 18px;
+    font-weight: 700;
+    color: #0066FF;
 }
 
 svg.dis {
@@ -203,6 +210,13 @@ svg.dis {
     background: #D6E7FF;
     font-size: 14px;
     margin-left: 20px;
+}
+
+.Carts_cart_price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
 }
 
 .Btns {

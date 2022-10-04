@@ -9,7 +9,7 @@ function Ofert(props) {
             {settings.discountOfert}
         </div>
         <div className="Content-title">
-            <h2>{DiscountOfert(props.productPrice, props.specialPrice)}</h2>
+            <p className="P">- {DiscountOfert(props.productPrice, props.specialPrice)}</p>
         </div>
       </div>
     </div>
