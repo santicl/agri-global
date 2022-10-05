@@ -15,7 +15,6 @@ nav {
     position: absolute;
     width: 95%;
     background-color: rgb(177, 214, 238, 0.9);
-    margin: 0 35px 0 35px;
     border-radius: 50px;
     height: 62px;
     top: 20px;
@@ -179,7 +178,6 @@ ul li a .brand {
     height: 400px;
     background-color: #07074D;
     margin-top: 50px;
-    padding: 20px;
 }
 
 .Footer-container_register {

@@ -15,6 +15,8 @@ function SearchAndFilters() {
     const { carts } = useCarts();
     const [search, setSearch] = useState("");
     const [currPage, setCurrPage] = useState(0);
+    const [maxPage, setMaxPage] = useState(9);
+    const [minPage, setMinPage] = useState(1);
 
     const filteredCarts = () => {
         if (search === 0 || search === "")
@@ -28,11 +30,25 @@ function SearchAndFilters() {
     const nextPage = () => {
         if (carts.filter(cart => cart.title.includes(search)).length > currPage + 9)
             setCurrPage(currPage + 9);
+            if (maxPage >= carts.length || maxPage === carts.length) {
+                setMaxPage(carts.length);
+                setMinPage(minPage)
+            } else {
+                setMaxPage(maxPage + 9);
+                setMinPage(minPage + 9);
+            }
     }
 
     const prevPage = () => {
         if (currPage > 0)
             setCurrPage(currPage - 9);
+            if (minPage <= 0) {
+                setMaxPage(maxPage);
+                setMinPage(1)
+            } else {
+                setMaxPage(maxPage - 9);
+                setMinPage(minPage - 9);
+            }
     }
 
     const clearFilter = () => {
@@ -72,9 +88,9 @@ function SearchAndFilters() {
                         <div className="Buttons-paginations">
                             <button className='Btns' onClick={prevPage}><span className='Arrow-r'>{settings.left}</span></button>
                             <div className="Buttons-paginations_pagination">
-                                <span>1 </span>
+                                <span> {minPage} </span>
                                 <span>to</span>
-                                <span> 9</span>
+                                <span> {maxPage} </span>
                             </div>
                             <button className='Btns' onClick={nextPage}><span className='Arrow-l'>{settings.left}</span></button>
                             <button className='Clear' onClick={clearFilter} >Clear filters</button>
