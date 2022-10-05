@@ -3,6 +3,10 @@
     overflow-y: auto;
 }
 
+::-webkit-scrollbar {
+    display: none;
+}
+
 .Category-cart {
     width: 300px;
     height: 300px;
